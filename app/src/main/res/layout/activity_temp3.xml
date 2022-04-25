@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Temp3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#D52A64"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/girl1">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/name_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/white"
+                        android:textSize="25dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/surname_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="surname"
+                        android:textColor="@color/white"
+                        android:textSize="25dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#3D4751">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="CONTACT : "
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Address : "
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_location_on_24"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/add_txt"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:text=""
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Mobile Number : "
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_call_24"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/mb_txt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:text=""
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="E-Mail : "
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:backgroundTint="@color/black"
+                            android:layout_marginTop="10dp"></ImageView>
+                    <TextView
+                        android:id="@+id/email_txt"
+                        android:layout_width="130dp"
+                        android:layout_height="60dp"
+                        android:text=""
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="LinkedIn : "
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/linkedin"
+                            android:backgroundTint="@color/black"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/link_txt"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:text=""
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Github Account : "
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/github"
+                            android:backgroundTint="@color/black"
+                            android:layout_marginTop="10dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/git_txt"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:text=""
+                        android:textColor="@color/black">
+
+                    </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/black">
+
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="PERSONAL INFORMATION : "
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birth Date  "
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/dob_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gender  "
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/gender_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Skills  "
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="1dp">
+
+                            <TextView
+                                android:id="@+id/skill1_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/skill2_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/skill3_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+                            <TextView
+                                android:id="@+id/skill4_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+                            <TextView
+                                android:id="@+id/skill5_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hobby  "
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="1dp">
+
+                            <TextView
+                                android:id="@+id/hobbies_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="EDUCATIONAL INFORMATION:"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/degree_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" - "
+                                android:textColor="@color/black"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" - "
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/clg_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Grade"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/grade_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:text=" : ">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="EXPERIENCE :"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Company  "
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/cmp_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text=":"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Start  "
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/start_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="70dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="End  "
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/end_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text=":"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
