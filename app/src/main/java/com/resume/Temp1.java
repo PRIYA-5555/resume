@@ -11,7 +11,6 @@ public class Temp1 extends AppCompatActivity {
             link_txt,add_txt,skill1_txt,skill2_txt,skill3_txt,skill4_txt,
             skill5_txt,degree_txt, clg_txt,grade_txt,cmp_txt,start_txt,end_txt;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
